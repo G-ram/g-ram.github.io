@@ -13,8 +13,6 @@
   @include clearfix();
   margin-bottom: 1em;
 
-  background: $sidebar-color;
-
   @include breakpoint($large) {
     @include span(2 of 12);
     opacity: 1;
