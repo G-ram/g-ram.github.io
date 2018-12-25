@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Graham Gobieski"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Graham Gobieski"
+description              : &description "Computer Science PhD Candidate"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -80,12 +80,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Graham Gobieski"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "PhD Candidate, Advised by Brandon Lucia and Nathan Beckman\n School of Computer Science Carnegie Mellon University"
+  location         : "Pittsburgh, Pa"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=M1TkIT0AAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -95,19 +95,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "g-ram"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/gobieski/"
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "gobieski"
   vine             :
   weibo            :
   xing             :
@@ -189,16 +189,16 @@ collections:
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
       path: ""
@@ -207,14 +207,14 @@ defaults:
       layout: single
       author_profile: true
   # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+  # - scope:
+  #     path: ""
+  #     type: teaching
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   # _publications
   - scope:
       path: ""
@@ -225,14 +225,14 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
   # _talks
   - scope:
       path: ""
@@ -252,7 +252,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
