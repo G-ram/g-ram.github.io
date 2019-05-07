@@ -23,7 +23,7 @@ Continuous streaming of raw sensor data from a node to a central hub is inpracti
 # [Publications](#publications)
 1. *Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems*  
 Graham Gobieski, Brandon Lucia, and Nathan Beckmann. ASPLOS'19.  
-[[Paper]](https://dl.acm.org/citation.cfm?id=3304011) [[ArXiv]](https://arxiv.org/abs/1810.07751)
+[[paper]](https://dl.acm.org/citation.cfm?id=3304011) [[ArXiv]](https://arxiv.org/abs/1810.07751)
 2. *Intermittent Deep Neural Network Inference*  
 Graham Gobieski, Nathan Beckmann, and Brandon Lucia. SysML'18.  
 [[paper]](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sysml.sonic.pdf)
