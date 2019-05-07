@@ -16,14 +16,14 @@ We seek to design from the ground-up an core that takes into account all of the 
 
 ### Inference on Intermittent Embedded Systems
 Continuous streaming of raw sensor data from a node to a central hub is inpractical for an intermittent device because communication is expensive and oftentimes infeasible. Thus, it is important to make the most out of any opportunity to communicate. Machine learning allows us to effectively determine whether sensor data is relevant and should or should not be transmitted. SONIC and TAILS are two runtime systems that make inference on intermittent devices correct and efficient. SONIC is entirely software-based, while TAILS relies upon hardware acceleration available on a variety of new MCUs. A paper summarizing these systems will appear at ASPLOS'19.
-- ArXiv: [https://arxiv.org/abs/1810.07751](https://arxiv.org/abs/1810.07751)
+- Paper: [https://dl.acm.org/citation.cfm?id=3304011](https://dl.acm.org/citation.cfm?id=3304011)
 - Github: [https://github.com/CMUAbstract/SONIC](https://github.com/CMUAbstract/SONIC)
 
 
 # [Publications](#publications)
 1. *Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems*  
 Graham Gobieski, Brandon Lucia, and Nathan Beckmann. ASPLOS'19.  
-[[paper]](https://arxiv.org/abs/1810.07751)
+[[Paper]](https://dl.acm.org/citation.cfm?id=3304011) [[ArXiv]](https://arxiv.org/abs/1810.07751)
 2. *Intermittent Deep Neural Network Inference*  
 Graham Gobieski, Nathan Beckmann, and Brandon Lucia. SysML'18.  
 [[paper]](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sysml.sonic.pdf)
