@@ -17,6 +17,7 @@ Please refer to my publications as well as [intermittent.systems](http://www.int
 
 ### Ultra-low power vector-datflow architecture
 Commercially-available off-the-shelf microcontrollers are energy-inefficient. Instruction supply energy and data supply energy (RF accesses) are two primary sources of energy-inefficiency. Vector execution is one way to improve energy-efficiency by amortizing the cost of fetching an instruction over a vector's worth of work. However, traditional vector architectures require a vector register file with expensive access energy. We introduce MANIC, a loosely-coupled vector co-processor that implements a new execution model called vector-dataflow execution. Vector-dataflow execution eliminates the majority of vector register file accesses by identifying opportunities for dataflow and forwarding values from producers to consumers. In typical vector execution, control control transfers horizontally and then vertically, completing an entire instruction’s worth of computation before moving onto the subsequent instruction. MANIC flips this around. MANIC considers a collection or window of instructions together, exposing opportunities for dataflow. In vector-dataflow execution, control transfers  vertically then horizontally, executing the first elements of the instructions, then the second elements, then the third and so on.
+- Paper: [https://dl.acm.org/doi/10.1145/3352460.3358277](https://dl.acm.org/doi/10.1145/3352460.3358277)
 
 ### Inference on Intermittent Embedded Systems
 Continuous streaming of raw sensor data from a node to a central hub is inpractical for an intermittent device because communication is expensive and oftentimes infeasible. Thus, it is important to make the most out of any opportunity to communicate. Machine learning allows us to effectively determine whether sensor data is relevant and should or should not be transmitted. SONIC and TAILS are two runtime systems that make inference on intermittent devices correct and efficient. SONIC is entirely software-based, while TAILS relies upon hardware acceleration available on a variety of new MCUs. A paper summarizing these systems appearred at ASPLOS'19.
@@ -27,7 +28,7 @@ Continuous streaming of raw sensor data from a node to a central hub is inpracti
 # [Publications](#publications)
 1. *MANIC: A Vector-Dataflow Architecture for Ultra-Low-Power Embedded Systems*
 Graham Gobieski, Amolak Nagi, Nathan Serafin, Mehmet Meric Isgenc, Nathan Beckmann, Brandon Lucia
-To appear in MICRO 2019
+[[paper]](https://dl.acm.org/doi/10.1145/3352460.3358277)
 2. *Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems*  
 Graham Gobieski, Brandon Lucia, and Nathan Beckmann. ASPLOS'19.  
 [[paper]](https://dl.acm.org/citation.cfm?id=3304011) [[ArXiv]](https://arxiv.org/abs/1810.07751)
