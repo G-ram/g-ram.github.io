@@ -28,17 +28,22 @@ Continuous streaming of raw sensor data from a node to a central hub is inpracti
 # [Publications](#publications)
 1. *MANIC: A Vector-Dataflow Architecture for Ultra-Low-Power Embedded Systems*
 Graham Gobieski, Amolak Nagi, Nathan Serafin, Mehmet Meric Isgenc, Nathan Beckmann, Brandon Lucia
+
 [[paper]](https://dl.acm.org/doi/10.1145/3352460.3358277)
 2. *Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems*  
 Graham Gobieski, Brandon Lucia, and Nathan Beckmann. ASPLOS'19.  
+
 [[paper]](https://dl.acm.org/citation.cfm?id=3304011) [[ArXiv]](https://arxiv.org/abs/1810.07751)
 3. *Intermittent Deep Neural Network Inference*  
 Graham Gobieski, Nathan Beckmann, and Brandon Lucia. SysML'18.  
+
 [[paper]](http://www.cs.cmu.edu/~beckmann/publications/papers/2018.sysml.sonic.pdf)
 4. *Shuffler: Fast and Deployable Continuous Code Re-Randomization*  
 David Williams-King, Graham Gobieski, Kent Williams-King, James P Blake, Xinhao Yuan, Patrick Colp, Michelle Zheng, Vasileios P Kemerlis, Junfeng Yang, William Aiello  
+
 [[paper]](https://www.usenix.org/system/files/conference/osdi16/osdi16-williams-king.pdf)
 5. *Clickable poly (ionic liquids): A materials platform for transfection*  
 Jessica Freyer, Spencer Brucks, Graham Gobieski, Sebastian Russell, Carrie Yozwiak, Mengzhen Sun, Zhixing Chen, Yivan Jiang, Jeffrey Bandar, Brent Stockwell, Tristan Lambert, Luis Campos  
+
 [[paper]](https://pdfs.semanticscholar.org/9c16/8b43d6ebe66e1c3e4c4a993dddd56594309b.pdf)
 
