@@ -24,8 +24,8 @@ Continuous streaming of raw sensor data from a node to a central hub is inpracti
 - Paper: [https://dl.acm.org/citation.cfm?id=3304011](https://dl.acm.org/citation.cfm?id=3304011)
 - Github: [https://github.com/CMUAbstract/SONIC](https://github.com/CMUAbstract/SONIC)
 
-### Fellowships/Awards
-#### Apple Scholar in AI/ML
+# Fellowships/Awards
+### Apple Scholar in AI/ML
 Prestigious 2-year fellowship awarded by Apple to twelve PhD students globally. Fellowship was awarded in recognition of work on on-device machine-learning. Please see [ml@apple](https://machinelearning.apple.com/updates/introducing-apple-scholars-aiml) for more information.
 
 
