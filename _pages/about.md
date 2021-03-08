@@ -23,7 +23,9 @@ Please refer to my publications as well as [intermittent.systems](http://www.int
 	<img align="left" src="/files/manic.png" style="padding:0.4em;margin:0px;">
 	<figcaption style="padding-left:0.4em;font-weight: bold;">MANIC Silicon - fabbed 2021</figcaption>
 </figure>
-Commercially-available off-the-shelf microcontrollers are energy-inefficient. Instruction supply energy and data supply energy (RF accesses) are two primary sources of energy-inefficiency. Vector execution is one way to improve energy-efficiency by amortizing instruction fetch and decode. However, traditional vector architectures require a vector register file with expensive access energy. We introduce MANIC, a loosely-coupled vector co-processor that implements a new execution model called vector-dataflow execution. Vector-dataflow execution eliminates the majority of vector register file accesses by identifying opportunities for dataflow and forwarding values from producers to consumers. In typical vector execution, control control transfers horizontally and then vertically, completing an entire instruction’s worth of computation before moving onto the subsequent instruction. MANIC flips this around. MANIC considers a collection or window of instructions together, exposing opportunities for dataflow. In vector-dataflow execution, control transfers  vertically then horizontally, executing the first elements of the instructions, then the second elements, then the third and so on.
+Commercially-available off-the-shelf microcontrollers are energy-inefficient. Instruction supply energy and data supply energy (RF accesses) are two primary sources of energy-inefficiency. Vector execution is one way to improve energy-efficiency by amortizing instruction fetch and decode. However, traditional vector architectures require a vector register file with expensive access energy. We introduce MANIC, a loosely-coupled vector co-processor that implements a new execution model called vector-dataflow execution. Vector-dataflow execution eliminates the majority of vector register file accesses by identifying opportunities for dataflow and forwarding values from producers to consumers. In typical vector execution, control completes an entire instruction’s worth of computation before moving onto the subsequent instruction. MANIC flips this around. MANIC considers a collection of instructions at once, exposing opportunities for dataflow. In vector-dataflow execution, control transfers executes the first elements of the instructions*, then the second elements, then the third and so on. 
+
+In 2021, we fabricated MANIC in a sub-28nm, ultra-low-power commercial process. Verification of the chip is ongoing, but initial results are promising.  
 - Paper: [https://dl.acm.org/doi/10.1145/3352460.3358277](https://dl.acm.org/doi/10.1145/3352460.3358277)
 
 ### Inference on Intermittent Embedded Systems (GENESYS, SONIC, TAILS)
@@ -38,10 +40,10 @@ Prestigious 2-year fellowship awarded by Apple to twelve PhD students globally. 
 
 # [Publications](#publications)
 1. *SNAFU: An Ultra-Low-Power, Energy-Minimal CGRA-Generation Framework and Architecture*
-Graham Gobieski, Oguz Atli, Ken Mai, Brandon Lucia, Nathan Beckmann
+Graham Gobieski, Oguz Atli, Ken Mai, Brandon Lucia, Nathan Beckmann  
 *To appear at ISCA'48*
 2. *MANIC: A Vector-Dataflow Architecture for Ultra-Low-Power Embedded Systems*
-Graham Gobieski, Amolak Nagi, Nathan Serafin, Mehmet Meric Isgenc, Nathan Beckmann, Brandon Lucia
+Graham Gobieski, Amolak Nagi, Nathan Serafin, Mehmet Meric Isgenc, Nathan Beckmann, Brandon Lucia  
 [[paper]](https://dl.acm.org/doi/10.1145/3352460.3358277)
 3. *Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems*  
 Graham Gobieski, Brandon Lucia, and Nathan Beckmann. ASPLOS'19.  
