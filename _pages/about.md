@@ -16,12 +16,14 @@ Commercially-available off-the-shelf systems in this domain are not energy-effic
 Please refer to my publications as well as [intermittent.systems](http://www.intermittent.systems/) and [cmu-corgi](https://cmu-corgi.github.io/) for more information.
 
 ### Ultra-low-power CGRA generation framework and architecture (SNAFU)
+SNAFU is a framework for generating ultra-low-power, energy-minimal course-grain reconfigurable arrays. It is designed from the ground-up to maximize flexibility while minimizing energy. For flexibility, SNAFU provides a standardized interface for processing elements, allowing for the easy integration of custom logic across the stack. For minimizing energy, SNAFU eliminates the primary source of energy-inefficiency in the prior state-of-the-art design, MANIC. Rather than share pipeline resources, SNAFU implements spatial-vector-dataflow execution, configuring a processing element once for the entirety of a kernel's execution. This minimizes transistor toggling from control and data signals.
+
 - Paper: To appear at ISCA'48
 
 ### Ultra-low-power vector-datflow architecture (MANIC)
 <figure style="float:left;max-width:250px;margin:0px;">
 	<img align="left" src="/files/manic.png" style="padding:0.4em;margin:0px;">
-	<figcaption style="padding-left:0.4em;font-weight: bold;">MANIC Silicon - fabbed 2021</figcaption>
+	<figcaption style="padding-left:0.4em;font-weight: bold;">MANIC silicon - fabbed 2021</figcaption>
 </figure>
 Commercially-available off-the-shelf microcontrollers are energy-inefficient. Instruction supply energy and data supply energy (RF accesses) are two primary sources of energy-inefficiency. Vector execution is one way to improve energy-efficiency by amortizing instruction fetch and decode. However, traditional vector architectures require a vector register file with expensive access energy. We introduce MANIC, a loosely-coupled vector co-processor that implements a new execution model called vector-dataflow execution. Vector-dataflow execution eliminates the majority of vector register file accesses by identifying opportunities for dataflow and forwarding values from producers to consumers. In typical vector execution, control completes an entire instruction’s worth of computation before moving onto the subsequent instruction. MANIC flips this around. MANIC considers a collection of instructions at once, exposing opportunities for dataflow. In vector-dataflow execution, control transfers executes the first elements of the instructions*, then the second elements, then the third and so on. 
 
@@ -39,10 +41,10 @@ Prestigious 2-year fellowship awarded by Apple to twelve PhD students globally. 
 
 
 # [Publications](#publications)
-1. *SNAFU: An Ultra-Low-Power, Energy-Minimal CGRA-Generation Framework and Architecture*
+1. *SNAFU: An Ultra-Low-Power, Energy-Minimal CGRA-Generation Framework and Architecture*  
 Graham Gobieski, Oguz Atli, Ken Mai, Brandon Lucia, Nathan Beckmann  
 *To appear at ISCA'48*
-2. *MANIC: A Vector-Dataflow Architecture for Ultra-Low-Power Embedded Systems*
+2. *MANIC: A Vector-Dataflow Architecture for Ultra-Low-Power Embedded Systems*  
 Graham Gobieski, Amolak Nagi, Nathan Serafin, Mehmet Meric Isgenc, Nathan Beckmann, Brandon Lucia  
 [[paper]](https://dl.acm.org/doi/10.1145/3352460.3358277)
 3. *Intelligence Beyond the Edge: Inference on Intermittent Embedded Systems*  
